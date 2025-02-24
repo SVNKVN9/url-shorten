@@ -24,5 +24,5 @@ export async function POST(req: Request) {
         }
     })
 
-    return Response.json({ url: `http://localhost:3000/${newUrl.short}/` })
+    return Response.json({ url: `/${newUrl.short}/` })
 }
